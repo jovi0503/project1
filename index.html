@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BestSeller</title>
+    <link rel="stylesheet" href="css/visual.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Enjoou? Anuncie seu produto aqui!</h3>
+      </div>
+      <div class="form_container">
+        <div class="form_header">
+          <p>Fórmulário</p>
+        </div>
+        <div class="form_body">
+          <h1 class="form_title">Venda Fácil seu produto</h1>
+          <p>
+            Descreva seu produto e selecione as opções que melhor correspondem a
+            ele
+          </p>
+          <form>
+            <div class="data_product">
+              <label for="title"
+                >Título do Anuncio <span class="required_filed">*</span></label
+              >
+              <input
+                type="text"
+                name="title"
+                id="title"
+                class="block"
+                placeholder="Insira um título para o seu produto"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="data_product">
+              <label for="price"
+                >Preço<span class="required_filed">*</span></label
+              >
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="block"
+                placeholder="Insira um valor para o seu produto"
+                required
+              />
+            </div>
+            <div class="data_product">
+              <label for="description"
+                >Descrição<span class="required_filed">*</span></label
+              >
+              <textarea
+                name="description"
+                id="description"
+                class="block"
+                placeholder="Descreva com detalhes o produto"
+              ></textarea>
+            </div>
+            <div class="data_product">
+              <label for="brand"
+                >Marca<span class="requirede_filed">*</span></label>
+              <input
+                type="text"
+                name="brand"
+                id="brand"
+                class="block"
+                placeholder="Indique a marca do seu produto"
+                required
+              />
+            </div>
+            <div class="data_product">
+                <label for="material"
+                  >Material:
+                <input
+                  type="text"
+                  name="material"
+                  id="material"
+                  class="block"
+                  placeholder="Ex: Latex, borracha, plástico, ferro e etc.."
+                  required
+                />
+              </div>
+              <div class="product_status">
+               <p>Estado do produto<span class="requirede_filed">*</span></p>
+               <input type="radio" id="new" name="status">
+               <label for="status">Novo</label>
+               <input type="radio" id="used" name="status" >
+               <label for="status">Usado</label >
+               <input type="radio" id="seminew" name="status" >
+               <label for="status">Semi-Novo</label>
+               <input type="radio" id="collector" name="status">
+               <label for="collector">Colecionador</label>
+              </div>
+              <div class="data_product">
+                <p>Fotos do protudo<span class="required_filed">*</span></p>
+                <input type="file"
+                 multiple accept="image/png, image/jpg"
+                  id="images" 
+                  name="images"
+                   required>
+              </div>
+             <input type="submit" value="Enviar" class="btn_submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
