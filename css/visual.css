@@ -8,6 +8,7 @@
 body {
     background-color: #f0ebf8;
 }
+
 h1,
 h2,
 h3,
@@ -15,55 +16,65 @@ h4,
 h5 {
     color: #333;
 }
+
 p,
 label {
     color: #444;
 }
-input{
+
+input {
     border: none;
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
+
 input[type="text"],
 input[type="number"],
 input[type="file"],
 input[type="date"],
-textarea{
+textarea {
     width: 400px;
 }
-textarea{
+
+textarea {
     padding: 10px 5px;
 }
-.header{
+
+.header {
     padding: 20px;
     height: 120px;
     background-color: rgba(5, 91, 177, 0.904);
 }
-.header h3{
+
+.header h3 {
     color: #ffff;
     margin-top: 0;
 }
-.form_container{
+
+.form_container {
     background-color: #fdfdfd;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -62px;
 }
-.form_header{
+
+.form_header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
     cursor: pointer;
     transition: 0.5s;
 }
-.form_header:hover{
+
+.form_header:hover {
     background-color: #fff;
-    border-color:rgba(5, 91, 177, 0.904);
+    border-color: rgba(5, 91, 177, 0.904);
     color: rgba(5, 91, 177, 0.904);
 }
+
 .form_header p {
-    color: rgba(5, 91, 177, 0.904) ;
-    border-bottom: 1px solid  rgba(5, 91, 177, 0.904) ;
+    color: rgba(5, 91, 177, 0.904);
+    border-bottom: 1px solid rgba(5, 91, 177, 0.904);
     width: 100px;
     text-align: center;
     margin: 0 auto;
@@ -71,31 +82,39 @@ textarea{
     height: 45px;
     line-height: 45px;
 }
-.form_body{
+
+.form_body {
     padding: 20px;
 }
-.form_title{
+
+.form_title {
     margin-bottom: 15px;
 }
-.form_body p { 
+
+.form_body p {
     margin-bottom: 20px;
 }
+
 .required_filed {
     color: #d80835;
 }
-.data_product{
+
+.data_product {
     margin-bottom: 35px;
 }
-.block{
+
+.block {
     display: block;
 }
-.product_status{
+
+.product_status {
     display: inline-block;
     margin-bottom: 35px;
     margin: 0px, 30px, 30px, 0px;
 }
-.btn_submit{
-    background-color: rgba(5, 91, 177, 0.904) ;
+
+.btn_submit {
+    background-color: rgba(5, 91, 177, 0.904);
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
@@ -104,9 +123,10 @@ textarea{
     text-transform: uppercase;
     transition: 0.5s;
 }
-.btn_submit:hover{
+
+.btn_submit:hover {
     background-color: #fff;
-    border-color:rgba(5, 91, 177, 0.904);
+    border-color: rgba(5, 91, 177, 0.904);
     color: rgba(5, 91, 177, 0.904);
 
 }
